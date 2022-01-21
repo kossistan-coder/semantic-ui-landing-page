@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>JBR_welcom</title>
+    <!-- Favicon -->
+	<link rel="icon" href="newassets/img/core-img/logo.png">
+
+    <!-- Core Stylesheet -->
+    <link href="newassets/style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="newassets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="mosh-preloader"></div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area clearfix">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <!-- Menu Area Start -->
+                <div class="col-12 h-100">
+                    <div class="menu_area h-100">
+                        <nav class="navbar h-100 navbar-expand-lg align-items-center">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href=""><img style="width:60px;height:55px;border-radius:50px;border:solid 2px green;"src="newassets/img/core-img/logo.png" alt="logo"></a>
+
+                            <!-- Menu Area -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mosh-navbar" aria-controls="mosh-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                            <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
+                                <ul class="navbar-nav animated" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="/">Accueil</a></li>
+                                    
+                                    <li class="nav-item"><a class="nav-link" href="#apropos">A Propos</a></li>
+									<li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Secteur Services</a>
+                                        <div class="dropdown-menu" aria-labelledby="moshDropdown">
+                                            <a class="dropdown-item" href="">E-MARKETING</a>
+                                            <a class="dropdown-item" href="">TRADING</a>
+											<a class="dropdown-item" href="">Agro-business & Elevage</a>
+                                            <a class="dropdown-item" href="">E-COMMERCE</a>
+                                            <a class="dropdown-item" href="">E-learning</a>
+                                            <a class="dropdown-item" href="">JBR-ET Store</a>
+                                            <a class="dropdown-item" href="">Gestion de Projets</a>
+											<a class="dropdown-item" href="">Immobiliers & Hôtellerie</a>
+											<a class="dropdown-item" href="">Echange de devises</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="elements.html">JBR-CASH/</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                                </ul>
+                                <!-- Search Form Area Start -->
+                                <!-- Search btn -->
+                                <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LANGUES</a>
+                                        <div class="dropdown-menu" aria-labelledby="moshDropdown">
+                                            <a class="dropdown-item" href="">ENGLISH</a>
+                                            <a class="dropdown-item" href="">FRANCAIS</a>
+											<a class="dropdown-item" href="">ARABE</a>
+                                            <a class="dropdown-item" href="">CHENESE</a>
+                                        </div>
+                                    </li>
+                                <!-- Login/Register btn -->
+                                <div class="login-register-btn">
+                                    <a href="pages/connexion.php">Connexion</a>
+                                    <a href="pages/account_inscription.php">/ Inscription</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <section class="welcome_area clearfix" id="home" style="background-image: url(newassets/img/bg-img/welcome-bg.png)">
+        <div class="hero-slides owl-carousel">
+            <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>Bienvenu Sur Just Be Rich</h2>
+                    <h4> Une société 100% numérique et digitale!</h4>
+                    <img class="slide-img" style="height:300px;width:700px;border-radius:15px;border:solid 4px green;"src="newassets/img/bg-img/slider_01.jpg" alt="">
+                </div>
+            </div>
+            <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>La Révolution Financière</h2>
+                    <h4>Obtenez Votre Liberté Financière Depuis chez Vous!</h4>
+                    <img class="slide-img" style="height:300px;width:700px;border-radius:15px;border:solid 4px green;" src="newassets/img/bg-img/slider_02.png" alt="">
+                </div>
+            </div>
+			<div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>La révolution Technologique</h2>
+                    <h4>Le Top 100% Luxe à votre porté!</h4>
+                    <img class="slide-img" style="height:300px;width:700px;border-radius:15px;border:solid 4px green;" src="newassets/img/bg-img/slider_03.jpg" alt="">
+                </div>
+            </div>
+			<div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>Liberté Financière</h2>
+                    <h4>Retrait d'Argent Rapide Facile et Efficace!</h4>
+                    <img class="slide-img" style="height:300px;width:700px;border-radius:15px;border:solid 4px green;" src="newassets/img/bg-img/slider_04.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Welcome Area End ***** -->
+
+    <!-- ***** Service Area Start ***** -->
+    <section class="mosh-service-area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mosh-service-slides owl-carousel">
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>01.</h2>
+                            <h4>Nous vous proposons</h4>
+                            <p>Des services techniques, technologiques et financiers.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>02.</h2>
+                            <h4>Nous vous offrons</h4>
+                            <p>Un système de plan d'affaire à rémunération progressive et un suivi vous permettant d’atteindre la liberté financière depuis chez vous...</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>03.</h2>
+                            <h4>Nous travaillons</h4>
+                            <p>Avec des collaborateurs expérimentés,d’ici et d’ailleurs de par le monde pour vous proposer de différents produits...</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>04.</h2>
+                            <h4>JBR dispose</h4>
+                            <p>De sa propre passerelle de paiement intelligente et rapide éfficace et innovante...</p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <!-- Discover More btn -->
+                <div class="col-12 text-center mt-100">
+                    <a href="#apropos" class="btn mosh-btn">Lire(+) plus..</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Area End ***** -->
+
+    <!-- ***** Clients Area Start ***** -->
+    <section class="mosh-clients-area section_padding_100 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <p>clients</p>
+                        <h2>Payement VIA</h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="clients-logo-area d-sm-flex align-items-center justify-content-between">
+                        <a href="#"><img style="height:80px;"src="newassets/img/clients-img/1.jfif" alt=""></a>
+                        <a href="#"><img style="height:80px;" src="newassets/img/clients-img/2.jfif" alt=""></a>
+                        <a href="#"><img style="height:80px;" src="newassets/img/clients-img/3.png" alt=""></a>
+                        <a href="#"><img style="height:80px;" src="newassets/img/clients-img/4.jpeg" alt=""></a>
+                        <a href="#"><img src="newassets/img/clients-img/5.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Clients Area End ***** -->
+
+    <!-- ***** Features Area Start ***** -->
+    <section class="mosh-features-area section_padding_100 clearfix"id="apropos">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-12 col-md-6">
+                    <div class="section-heading">
+                        <p>JUST BE RICH</p>
+                        <h2>La révolution technologique et financière au service du digital et du numérique</h2>
+                    </div>
+                    <div class="features-content">
+                        <p> JUST BE RICH est une société numérique, digital proposant des services techniques,
+						technologiques, financiers avec un système qui vous offre un plan d'affaire à rémunération 
+						progressive et un suivi vous permettant d’atteindre la liberté financière depuis chez vous. 
+						JUST BE RICH travaille avec des collaborateurs expérimentés, d’ici 
+						et d’ailleurs de par le monde pour proposer des produits différents, 
+						JBR dispose de sa propre passerelle de paiement intelligente et innovante.</p>
+                        <!-- Progress Bar Content Area -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature Thumb -->
+        <div class="features-img">
+            <img style=";"src="newassets/img/bg-img/features.png" alt="">
+        </div>
+    </section>
+    <!-- ***** Feature Area End ***** -->
+
+    <!-- ***** Service Area Start ***** -->
+    <section class="mosh-more-services-area d-sm-flex clearfix" id="services">
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".1s">
+                <img src="newassets/img/core-img/trophy.png" alt="">
+                <h4>E-MARKETING</h4>
+                <p>Système de matrice binaire à positionnement limité, une fois la chaîne binaire bouclée.
+				A l’inscription, les membres sont positionnés dans un système, dans le but de générer des revenues
+				constantes et progressives en fonction des niveaux.</p>
+				<a href="">Lire.. <sup>+</sup></a>
+            </div>
+        </div>
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".4s">
+                <img src="newassets/img/core-img/edit.png" alt="">
+                <h4>TRADING</h4>
+                <p>Contrairement au broker Forex et indices, JBR n'est pas un intermédiaire entre un
+				investisseur et le marché. Nous proposons des services plus basé sur l'éducation boursière,
+				Premium VVIP SIGNAL, et COPY TRADING avec des experts de la bourse avec plus de 8ans d'expériences .</p>
+				<a href="">Lire.. <sup>+</sup></a>
+            </div>
+        </div>
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".7s">
+                <img src="newassets/img/core-img/video-camera.png" alt="">
+                <h4>E-COMMERCE</h4>
+                <p>le client (le consommateur) passe commande sur la plate-forme JUST BE RICH dans votre back office partenaire (le revendeur),
+				lequel transmet celle-ci au fournisseur (le grossiste) pour que celui-ci assure la livraison et gère les stocks, en toute sécurité.</p>
+				<a href="">Lire.. <sup>+</sup></a>
+            </div>
+        </div>
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay="1s">
+                <img src="newassets/img/core-img/presentation.png" alt="">
+                <h4>E-learning</h4>
+                <p>Nous usons des technologies multimédia et de la communication à des fins éducatives, pour améliorer la qualité de l'apprentissage. Cette section est plus ouverte sur le trading 
+				le e-marketing, le e-commerce, le drop shipping la gestion de projet l'échange des actifs. Plus de 60% de réduction par rapport aux tarifs normaux.</p>
+				<a href="">Lire.. <sup>+</sup></a>
+            </div>
+        </div>
+    </section>
+	<section class="mosh-more-services-area d-sm-flex clearfix">
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".1s">
+                <img src="newassets/img/core-img/atomic.png" alt="">
+                <h4>JBR-ET Store</h4>
+                <p>JBR-ET est spécialisé dans le courtage en finance, en gestion, et en éducation boursière. JBR-ET met à votre 
+							disposition des services boursiers de qualités avec des professionnels. Nous proposons des services plus basé sur 
+							l'éducation boursière, Premium millionnaire signal, le copy-trading et le Forex challenge et des packs trading.</p>
+				<a href="">Lire.. <sup>+</sup></a>
+            </div>
+        </div>
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".4s">
+                <img src="img/core-img/safebox.png" alt="">
+                <h4>Agro-business & Elevage</h4>
+                <p>JBR-ET intervient dans l'ensemble des activités économiques relatives à la production, 
+				la transformation et la commercialisation des produits issus de l'agriculture, 
+				JUST BE RICH vous offre, l’opportunité de prendre part à nos projets Agro-Alimentaire 
+				dans l’achat des packs AGROBUSINESS, et ÉLEVAGE.</p>
+				<a href="">Lire.. <sup>+</sup></a>
+            </div>
+        </div>
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".7s">
+                <img src="img/core-img/settings-2.png" alt="">
+                <h4>JBR-CASH/ Echange de devises</h4>
+                <p>Il s'agit d'un système international de paiement électronique. 
+				JBRcash offre des frais avantageux et diverses façons de déposer ou de retirer des fonds. ... 
+				Gérez votre argent par virement bancaire, et services d'échange</p>
+            </div>
+        </div>
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay="1s">
+                <img src="img/core-img/alarm-clock.png" alt="">
+                <h4>Gestion de Projets</h4>
+                <p>JUST BE RICH s'engage à soutenir et financer la jeunesse de leur prise de décision à la 
+				concrétisation par gestion de projet ou management de leur projet. JBR supervisera l'ensemble
+				des activités visant à organiser le bon déroulement d'un projet et à en atteindre les objectifs. 
+				N'importe qui peut soumettre un projet et obtenir un financement de la part de la société.</p>
+				<a href="">Lire.. <sup>+</sup></a>
+            </div>
+        </div>
+    </section>
+	<section class="mosh-more-services-area d-sm-flex clearfix">
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".1s">
+                <img src="img/core-img/trophy.png" alt="">
+                <h4>Tourisme &amp; Voyage</h4>
+                <p>JBR met à la disposition de tous ses membres, la possibilité de réaliser leurs rêves 
+				touristiques et de voyages dans la facilité d’obtention de visas, d’achat de billets de 
+				réservations et de soutien financier.</p>
+				<a href="">Lire.. <sup>+</sup></a>
+            </div>
+        </div>
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".4s">
+                <img src="img/core-img/edit.png" alt="">
+                <h4>Immobiliers & Hôtellerie</h4>
+                <p></p>
+				<a href="">Lire.. <sup>+</sup></a>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Area End ***** -->
+
+    <!-- ***** Workflow Area Start ***** -->
+    <section class="mosh-workflow-area section_padding_100_0 clearfix" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mb-0">
+                        <p>FAQ....</p>
+                        <h2>Foire Aux Questions</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="workflow-img">
+            <img src="newassets/img/core-img/work-progress.png" alt="">
+        </div>
+
+        <div class="workflow-slides-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mosh-workflow-slides owl-carousel">
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>1.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Comment s'inscrire sur JBR?</h4>
+                                    <p>Cliquez sur inscription puis remplissez le formulaire accepter les conditions d'utilisation puis cliquez sur suivant, 
+									sélectionnez le moyen de payement puis ok, vous serez redirigez sur une page de payement effectuez le payement des 20$ 
+									vous recevrez des mails de confirmation pour confirmer votre inscription.</p>
+                                </div>
+                            </div>
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>2.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Comment se connecter à JUST BE RICH ?</h4>
+                                    <p>Cliquez sur connexion puis remplissez le formulaire avec mail, mot de passe, puis Me connecter.</p>
+                                </div>
+                            </div>
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>3.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Comment se déconnecter à JUST BE RICH ?</h4>
+                                    <p>Cliquez sur le menu profil dans le coin supérieur droit puis dans le petit cadre nouvellement
+									ouvert cliquez sur Déconnexion.</p>
+                                </div>
+                            </div>
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>4.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Comment gagne-t-on de l'argent sur JUST BE RICH? </h4>
+                                    <p>Les services sont variés et multiples et chaque secteur offre des opportunités à rémunérations constantes et progressives.</p>
+                                </div>
+                            </div>
+							<div class="single-workflow-area d-flex">
+                                <h2>5.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Comment retirer de l’argent sur JUST BE RICH? </h4>
+                                    <p>Se connecter, dans le menu à gauche cliquez sur demande de retrait, choisir le moyen payement, remplir le formulaire, puis valider. </p>
+                                </div>
+                            </div>
+							<div class="single-workflow-area d-flex">
+                                <h2>6.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Comment gérer mon espace de travail JUST BE RICH?</h4>
+                                    <p>Simple et facile le menu à gauche permettant de circuler librement d’un service à un autre affichant aussi les différentes  
+									options. Le tableau de bord a la connexion. Le menu profil dans le coin supérieur droit pour se déconnecter.</p>
+                                </div>
+                            </div>
+							<div class="single-workflow-area d-flex">
+                                <h2>7.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Comment devenir partenaire de JUST BE RICH ?</h4>
+                                    <p>Réservé exclusivement aux membres de JBR dans la section partenaire, le statut d’un partenaire est variable et évolutif de même que ses rémunérations.</p>
+                                </div>
+                            </div>
+							<div class="single-workflow-area d-flex">
+                                <h2>8.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Comment utiliser les applications JUST BE RICH? </h4>
+                                    <p>Chaque application correspond à un service en particulier et les détails sont données dans la section application.<p>
+                                </div>
+                            </div>
+							<div class="single-workflow-area d-flex">
+                                <h2>9.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Comment fonctionne le service de loyauté JUST BE RICH?</h4>
+                                    <p>L’un des services phare étant le marketing cette section comme tous les autres permet une évolution constante
+									et progressive donnant accès à des kits cadeaux (appareils électroniques, véhicules, voyages touristique, maison et un tirage au sort saisonnier).</p>
+                                </div>
+                            </div>
+							<div class="single-workflow-area d-flex">
+                                <h2>10.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Qu'est-ce que le JBRcash ?</h4>
+                                    <p>Il s'agit d'un système international de paiement électronique. JBRcash offre des frais avantageux et diverses façons de déposer ou de retirer des fonds. ...
+									Gérez votre argent par virement bancaire, et services de change.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Area End ***** -->
+
+    <!-- ***** CTA Area Start ***** -->
+    <section class="mosh-call-to-action-area bg-img bg-overlay section_padding_100" style="background-image: url(newassets/img/bg-img/cta.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content text-center wow fadeIn" data-wow-delay="0.5s">
+                        <div class="section-heading">
+                            <p>Inscrivez-vous et Obtenez</p>
+                            <h2>Votre Liberté Financière avec JBR.</h2>
+                            <a href="pages/account_inscription.php" class="btn mosh-btn">Inscription</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** CTA Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-area clearfix">
+        <!-- Top Fotter Area -->
+        <div class="top-footer-area section_padding_100_0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <a href="#" class="mb-50 d-block"><img src="newassets/img/core-img/log.png" alt=""></a>
+                            <p>JUST BE RICH<marquee> Win Together Earn Together</marquee></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <h5>Fast links</h5>
+                            <ul>
+                                <li><a href="#">Accueil</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="">Programme de loyauté</a></li>
+                                <li><a href="pages/connexion.php">Connexion</a></li>
+                                <li><a href="pages/account_inscription.php">Inscription</a></li>
+								<li><a href="#faq">How It Work</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <h5>Blog</h5>
+                            <div class="footer-single--blog-post">
+                                <a href="" class="blog-post-date">
+                                    <p>Terms & Conditions</p>
+                                </a>
+                                <a href="" class="blog-post-title">
+                                    <h6>Une Politique très simple</h6>
+                                </a>
+                            </div>
+                            <div class="footer-single--blog-post">
+                                <a href="" class="blog-post-date">
+                                    <p>Sécurité</p>
+                                </a>
+                                <a href="" class="blog-post-title">
+                                    <h6>100% Garantie </h6>
+                                </a>
+                            </div>
+                            <div class="footer-single--blog-post">
+                                <a href="" class="blog-post-date">
+                                    <p>JUST BE RICH</p>
+                                </a>
+                                <a href="" class="blog-post-title">
+                                    <h6>La référence financière</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-100">
+                            <h5>Contact Info</h5>
+                            <div class="footer-single-contact-info d-flex">
+                                <div class="contact-icon">
+                                    <img src="img/core-img/map.png" alt="">
+                                </div>
+                                <p>BP:/Lomé-Togo</p>
+                            </div>
+                            <div class="footer-single-contact-info d-flex">
+                                <div class="contact-icon">
+                                    <img src="img/core-img/call.png" alt="">
+                                </div>
+                                <p>Main: +228 93 52 11 13 <br> Office: +228 93 52 11 13</p>
+                            </div>
+                            <div class="footer-single-contact-info d-flex">
+                                <div class="contact-icon">
+                                    <img src="img/core-img/message.png" alt="">
+                                </div>
+                                <p>noreply@justberichet.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fotter Bottom Area -->
+        <div class="footer-bottom-area">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 h-100">
+                        <div class="footer-bottom-content h-100 d-md-flex justify-content-between align-items-center">
+                            <div class="copyright-text">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | made <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">@JBR_equipe</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+                            </div>
+                            <div class="footer-social-info">
+                                <a href="https://t.me/JUSTBERICHEARNTOGETHER"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/JUSTBERICH1?s=09"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://instagram.com/justberich2020?igshid=1bea8n4u23mva"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="newassets/js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="newassets/js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="newassets/js/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="newassets/js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="newassets/js/active.js"></script>
+</body>
+
+</html>
